@@ -1,0 +1,79 @@
+
+
+
+.navbar{
+
+    border: 1px solid black;
+    
+}
+
+.navbar ul li{
+display: inline-block;
+padding: 4px;
+
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+color: black;
+}
+.navbar ul li a:hover{
+
+    color: red
+}
+ 
+.wrapper{
+margin-top: 20px;
+border: 1px solid black;
+padding: 10px;
+    
+
+}
+
+.wrapper .circulos{
+
+    display: flex;
+    padding: 4px;
+gap: 25px;
+}
+
+ .wrapper .circulos .circulo{
+border: 1px solid black;
+width: 100px;
+height: 100px;
+border-radius: 50px;
+
+
+ }
+
+ .content .article{
+
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 290px;
+    height: 150px;
+    
+
+
+ }
+
+ .content{
+     display: flex;
+     gap: 20px;
+ }
+
+ .fooder{
+    border: 1px solid black ;
+    text-align: center;
+    margin-top: 15px;
+
+
+ }
+
+ .content .article p {
+
+    padding: 10px;
+
+
+ }
