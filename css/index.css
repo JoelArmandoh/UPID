@@ -1,0 +1,48 @@
+.navbar{
+
+	border: 1px solid black;
+
+
+}
+
+.main{
+
+	border: 1px solid black;
+
+
+}
+
+.articulo1{
+
+	border: 2px solid black;
+height: 300px;
+background-color: red;
+}
+
+.articulo2{
+
+	border: 2px solid black;
+	height: 300px;
+background-color: rgb(255, 255, 255);
+
+}
+
+.articulo3{
+
+	border: 2px solid black;
+height: 300px;
+background-color: rgb(28, 28, 235);
+}
+
+
+.texto{
+
+	position: absolute;
+    top: 40%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+color: white;
+text-shadow: black;
+
+}
+
