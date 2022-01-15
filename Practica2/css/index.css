@@ -1,0 +1,96 @@
+main, nav, aside, div  {
+
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.contenedor {
+    margin: auto;
+    width: 60%;
+    height: auto;
+    display: grid;
+    grid-template: 
+    "navbar navbar navbar" 
+    "aside aside2 aside2" 
+    "circulo circulo circulo" 
+    "cuadro cuadro cuadro" 
+    "cuadro11 cuadro11 cuadro11" 
+    ;
+} 
+
+    /*width: 60%;
+    display: grid;
+    grid-template:
+    "header header header" 80px
+    "sidebar sidebar2 sidebar2" 280px
+    "footer footer footer" 100px
+    "footer2 footer2 footer2"80px
+    "footer3 footer3 footer3" 80px;
+  */
+
+  .navbar{
+
+    grid-area: navbar;
+
+  }
+
+  .aside{
+    grid-area:aside;
+    height: auto;
+    width: auto;
+  }
+
+  .aside2{
+    grid-area: aside2;
+
+}
+
+.circulo{
+    grid-area: circulo;
+
+}
+
+.cuadro{
+    grid-area: cuadro;
+    height: 30px;
+}
+
+.cuadro11{
+
+    grid-area: cuadro11;
+    height: 30px;
+}
+
+.circulos{
+display:inline-block;
+margin-left: 100px;
+width: 30px;
+height: 30px;
+border-radius: 50px;
+}
+
+.cuadro1{
+
+    width: 89%;
+    height:30px ;
+
+}
+
+.cuadro2{
+    display: inline-block;
+    width: 40%;
+    height: 100px;
+}
+    
+
+/*display: inline-block;
+  width: 40%;
+  height: 80px;*/
+
+
+
+/* display: inline-flex;
+        width: 100px;
+        height: 200px;*/
